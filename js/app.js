@@ -9,7 +9,7 @@
 		});
 
   		$("[class^=year]").each((i, el) => {
-  			var year = new Date().getFullYear();
+  			var year = 2017;
   			el.innerHTML = year + (parseInt(el.className.replace("year", "")) || 0);
   		});
 
